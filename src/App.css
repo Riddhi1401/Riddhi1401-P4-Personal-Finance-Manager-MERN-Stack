@@ -1,0 +1,36 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* background-color: black; */
+}
+
+.App
+{
+  height: 100% ;
+  width: 85%;
+  padding: 90px;
+  margin: auto;
+  border: 2px rgb(140, 139, 139) solid ;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px; /* Spacing between options */
+  align-items: center;
+  justify-content: center;
+}
+.custom-radio input[type="radio"] {
+  position: absolute;
+  accent-color: #ff9800; /* Custom color for radio button */
+  /* transform: scale(1.5); Increase size (makes it bold visually) */
+  font-weight: bold; /* Not directly applicable, but increases weight */
+  border: 2px solid black; /* Add a bold outline */
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  
+}

@@ -1,0 +1,33 @@
+.filterRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.mobileBtn{
+    display: none !important;
+}
+
+.iconActive{
+    background-color: white;
+    color: black;
+}
+.iconDeactive{
+    background-color: rgb(78, 74, 78);
+    color: black;
+}
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox-custom .form-check-label {
+    background: white;   /* White background for text */
+    color: black;        /* Black text for better readability */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
